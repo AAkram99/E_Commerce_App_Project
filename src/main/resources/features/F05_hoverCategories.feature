@@ -1,6 +1,6 @@
 @smoke
-  Feature:
-    Scenario:
+  Feature: F05_hoverCategories | user hover on categories
+    Scenario: user could hover on any main category then on any sub category
       When user hovers on random main category
       And user hovers on random sub category
       And get text of the subCategory

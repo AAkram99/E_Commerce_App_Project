@@ -1,5 +1,5 @@
 @smoke
- Feature: F08_Wishlist
+ Feature: F08_Wishlist | Adding products to wishlist
    Scenario: user could click on heart button to add product to the wishlist
      When user clicks on heart button of product
      Then success message is displayed with green background

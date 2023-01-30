@@ -1,5 +1,5 @@
 @smoke
-  Feature: F07_followUs
+  Feature: F07_followUs | clicking on any follow link redirecting user to the nopCommerce page on this platform
     Scenario: user opens facebook link
       When user opens facebook link
       Then  "https://www.facebook.com/nopCommerce" is opened in new tab

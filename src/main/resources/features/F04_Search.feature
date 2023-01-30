@@ -1,5 +1,5 @@
 @smoke
-  Feature:F04_search |
+  Feature:F04_search | user could use search feature with different inputs
     Scenario Outline: user could search using product name
       When user enter "<ProductName>" as search parameter
       And user clicks on search button
